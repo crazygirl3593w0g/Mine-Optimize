@@ -1,5 +1,5 @@
 Minecraft server optimization guide
-DOWNLOAD LINK : https://yagla.tv/csSzuBp
+DOWNLOAD LINK : https://yagla.tv/cVoPqR4
 PASSWORD : 2026
 
 Note for users that are on vanilla, Fabric or Spigot (or anything below Paper) - go to your server.properties and change sync-chunk-writes to false. This option is forcibly set to false on Paper and its forks, but on other server implementations you need to switch this to false manually. This allows the server to save chunks off the main thread, lessening the load on the main tick loop.
